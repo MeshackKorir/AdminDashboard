@@ -1,5 +1,5 @@
 import React from 'react';
-import '../Home.css';
+import "./Home.css";
 
 function Home() {
   const data = [
@@ -25,6 +25,7 @@ function Home() {
   return (
     <div className="landing-page-container">
       <div id="myCarousel" className="carousel slide" data-ride="carousel" data-interval="8000">
+
         {/* Indicators */}
         <ol className="carousel-indicators">
           {data[0].images.map((image, index) => (
@@ -37,7 +38,7 @@ function Home() {
           {data[0].images.map((image, index) => (
             <div key={index} className={`carousel-item ${index === 0 ? "active" : ""}`}>
               <img src={image} className="d-block w-100" alt={`Slide ${index}`} />
-              <div className="carousel-caption d-none d-md-block">
+              <div className="carousel-caption text-dark bg-light">
                 <h3>{data[0].titles[index]}</h3>
                 <p dangerouslySetInnerHTML={{ __html: data[0].descriptions[index] }}></p>
               </div>
@@ -46,11 +47,13 @@ function Home() {
         </div>
 
         {/* Left and right controls */}
-        <a className="left carousel-control" href="#myCarousel" data-slide="prev">
-          <span className="glyphicon glyphicon-chevron-left"></span>
+        <a className="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+          <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span className="sr-only">Previous</span>
         </a>
-        <a className="right carousel-control" href="#myCarousel" data-slide="next">
-          <span className="glyphicon glyphicon-chevron-right"></span>
+        <a className="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+          <span className="carousel-control-next-icon" aria-hidden="true"></span>
+          <span className="sr-only">Next</span>
         </a>
       </div>
     </div>
