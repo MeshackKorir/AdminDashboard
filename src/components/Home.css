@@ -14,3 +14,14 @@
   border-radius: 20px;
 }
 
+.carousel-control-prev{
+  color: darkslategray;
+  font-size: larger;
+  padding: 50px;
+}
+
+.carousel-control-next{
+  color: darkslategray;
+  font-size: larger;
+  padding: 50px;
+}
