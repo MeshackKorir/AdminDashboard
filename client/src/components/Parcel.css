@@ -2,6 +2,9 @@
     display: flex;
     justify-content: space-between;
     gap: 30px;
+    background: url('https://www.shutterstock.com/image-photo/person-wearing-orange-tshirt-delivering-260nw-1154715967.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   
   .parcel-form {
@@ -11,6 +14,7 @@
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     margin: 20px;
+    background-color: white;
   }
   
   .parcel-form h2 {
