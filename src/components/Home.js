@@ -17,7 +17,7 @@ function Home() {
       descriptions: [
         "TransLogic offers a menu of supply chain solutions that can optimize the effectiveness of your product promotion and reduce the cost of packaging",
         "Thank you, Chicago!",
-        "We love the Big Apple!"
+        "We love the Big Ocean!"
       ]
     }
   ];
@@ -25,10 +25,9 @@ function Home() {
   return (
     <div className="landing-page-container">
       <div id="myCarousel" className="carousel slide" data-ride="carousel" data-interval="8000">
-
         {/* Indicators */}
         <ol className="carousel-indicators">
-          {data[0].images.map((image, index) => (
+          {data[0].images.map((images, index) => (
             <li key={index} data-target="#myCarousel" data-slide-to={index} className={index === 0 ? "active" : ""}></li>
           ))}
         </ol>
@@ -38,7 +37,7 @@ function Home() {
           {data[0].images.map((image, index) => (
             <div key={index} className={`carousel-item ${index === 0 ? "active" : ""}`}>
               <img src={image} className="d-block w-100" alt={`Slide ${index}`} />
-              <div className="carousel-caption text-dark bg-light">
+              <div className="carousel-caption d-none d-md-block">
                 <h3>{data[0].titles[index]}</h3>
                 <p dangerouslySetInnerHTML={{ __html: data[0].descriptions[index] }}></p>
               </div>
