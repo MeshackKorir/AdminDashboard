@@ -7,21 +7,29 @@
 
 #myCarousel {
   border-radius: 8px;
-  overflow: hidden;
+  overflow: show;
 }
 
-.carousel-inner {
+/* .carousel-inner {
   border-radius: 20px;
-}
+  display: flex;
+} */
 
 .carousel-control-prev{
-  color: darkslategray;
+  color: rgb(11, 11, 11) !important;
   font-size: larger;
   padding: 50px;
 }
 
 .carousel-control-next{
-  color: darkslategray;
+  color: rgb(16, 17, 17)!important;
   font-size: larger;
-  padding: 50px;
+  /* padding: 50px; */
+}
+.image-container{
+/* display: flex; */
+}
+
+.img{
+  width: 750px;
 }
