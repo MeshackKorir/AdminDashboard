@@ -93,16 +93,21 @@ const Parcel = () => {
           </div>
           <div className="form-group col-md-4">
             <label htmlFor="inputSenderState">Country</label>
-            <select id="inputSenderState" className="form-control" value={senderState} onChange={(e) => setSenderState(e.target.value)} required>
+            <select
+              id="inputSenderState"
+              className={`form-control ${senderState ? 'clicked-select' : ''}`}
+              value={senderState}
+              onChange={(e) => setSenderState(e.target.value)}
+              required
+            >  
               <option value="">Choose...</option>
               <option value="KE">Kenya</option>
               <option value="ET">Ethiopia</option>
-              <option value="ET">Uganda</option>
-              <option value="ET">Rwanda</option>
-              <option value="ET">Tanzania</option>
-             
+              <option value="UG">Uganda</option>
+              <option value="RW">Rwanda</option>
+              <option value="TZ">Tanzania</option>
             </select>
-          </div>
+        </div>
           <div className="form-group col-md-2">
             <label htmlFor="inputSenderZip">Zip</label>
             <input type="text" className="form-control" id="inputSenderZip" value={senderZip} onChange={(e) => setSenderZip(e.target.value)} required />

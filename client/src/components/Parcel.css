@@ -6,11 +6,15 @@
   padding: 20px;
 }
 
+.clicked-select {
+  background-color: #2196F3; /* Blue color when clicked */
+  color: white; /* White text */
+}
 .parcel-form {
-  background-color: #f4f4f4;
+  background-color: #c6bfbf;
   padding: 20px;
   border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px rgba(138, 118, 118, 0.1);
   width: 40%;
 }
 
