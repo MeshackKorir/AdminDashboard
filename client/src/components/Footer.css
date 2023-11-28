@@ -1,52 +1,68 @@
+/* Footer.css */
+
 footer {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: relative;
-  }
-  #social-links {
-    width: 70%;
-    height: 4em;
-    display: flex;
-    justify-content: space-between;
-    background-color: #1c2933;
-    align-items: center;
-  }
-  #icons {
-    display: flex;
-    gap: 20px;
-  }
-  #icons :hover {
-    scale: 1.05;
-    cursor: pointer;
+    background-color: #222;
+    color: #fff;
+    padding: 20px 0;
   }
   
   .main {
-    width: 70%;
     display: flex;
-    height: 20em;
-    background-color: #1f2e39;
+    justify-content: space-around;
   }
-  .footer-col {
-    height: 100%;
-    width: 33%;
   
-    text-align: left;
+  .footer-col {
+    flex: 1;
+    margin-right: 20px;
   }
-  #details {
-    text-align: left;
-    padding-right: 20px;
+  
+  h1 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 0.9rem;
+    line-height: 1.4;
   }
   
   #links {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    text-decoration: none;
+    list-style: none;
+    padding: 0;
   }
   
-  #links :hover {
-    color: rgba(0, 191, 255, 0.574);
+  #links li {
+    margin-bottom: 5px;
     cursor: pointer;
   }
+  
+  #social-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  #icons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  #icons span {
+    cursor: pointer;
+  }
+  
+  #social-links p {
+    margin: 0;
+    font-size: 0.8rem;
+  }
+  
+  #social-links svg {
+    fill: #fff;
+    transition: fill 0.3s;
+  }
+  
+  #social-links svg:hover {
+    fill: #03a9f4;
+  }
+  

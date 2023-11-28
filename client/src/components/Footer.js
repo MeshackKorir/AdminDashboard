@@ -1,5 +1,7 @@
-import react from "react";
-import "./footer.css";
+
+import React from 'react';
+import './Footer.css';
+
 function Footer() {
   return (
     <footer>
@@ -7,28 +9,30 @@ function Footer() {
         <div className="footer-col" id="details">
           <h1>Translogic</h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam,
-            quia autem eveniet dicta id aliquid reprehenderit consectetur minima
-            odio est nemo quidem obcaecati perferendis repudiandae, optio itaque
-            similique vitae nostrum.
+            Translogic provides comprehensive transportation solutions across various modes, ensuring efficient and reliable services. Our expertise includes:
           </p>
+          <ul>
+            <li>Train Transportation</li>
+            <li>Air Transportation</li>
+            <li>Ocean Transportation</li>
+          </ul>
         </div>
 
         <div className="footer-col">
-          <h1>Quick link</h1>
+          <h1>Quick Links</h1>
           <ul id="links">
             <li>Home</li>
-            <li>Service</li>
+            <li>Services</li>
             <li>About</li>
-            <li>policy</li>
-            <li>admin</li>
+            <li>Policy</li>
+            <li>Admin</li>
           </ul>
         </div>
         <div className="footer-col"></div>
       </div>
       <div id="social-links">
         <div>
-          <p>ThemeREX © 2023. All rights reserved.</p>
+          <p>Translogic © 2023. All rights reserved.</p>
         </div>
         <div id="icons">
           <span>
@@ -125,4 +129,5 @@ function Footer() {
     </footer>
   );
 }
+
 export default Footer;

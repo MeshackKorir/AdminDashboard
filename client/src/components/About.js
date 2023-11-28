@@ -1,4 +1,5 @@
 import React from 'react';
+import Footer from './Footer';
 import './About.css';
 
 const About = () => {
@@ -43,6 +44,8 @@ const About = () => {
           </div>
         </div>
       </div>
+      {/* Footer */}
+     <Footer />
     </div>
   );
 };
