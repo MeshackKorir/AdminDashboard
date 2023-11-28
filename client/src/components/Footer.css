@@ -1,8 +1,8 @@
 /* Footer.css */
 
 footer {
-    background-color: #222;
-    color: #fff;
+    background-color: #948686;
+    color: #eedbdb;
     padding: 20px 0;
   }
   
@@ -39,6 +39,7 @@ footer {
   #social-links {
     display: flex;
     justify-content: space-between;
+    color: rgb(243, 238, 247);
     align-items: center;
     margin-top: 20px;
   }
@@ -55,6 +56,7 @@ footer {
   #social-links p {
     margin: 0;
     font-size: 0.8rem;
+    justify-content: space-between;
   }
   
   #social-links svg {

@@ -1,35 +1,63 @@
-.landing-page-container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 20px;
+
+.home-container {
+  background: url("https://t3.ftcdn.net/jpg/03/12/98/50/360_F_312985059_66x3vcXQdx3tRBznUCNJmm9MMc6bMQGI.jpg");
+  background-size: 1800px;
+  background-position: center;
+  background-repeat:no-repeat;
+  padding: 0;
+  text-align: center;
+  font-size: larger;
 }
 
-
-#myCarousel {
-  border-radius: 8px;
-  overflow: show;
+.header {
+  margin-bottom: 30px;
 }
 
-/* .carousel-inner {
-  border-radius: 20px;
+.header h1{
+  margin-top: 35px;
+}
+
+.blue {
+  color: #2196F3;
+}
+
+.card-list {
   display: flex;
-} */
-
-.carousel-control-prev{
-  color: rgb(11, 11, 11) !important;
-  font-size: larger;
-  padding: 50px;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
-.carousel-control-next{
-  color: rgb(16, 17, 17)!important;
-  font-size: larger;
-  /* padding: 50px; */
-}
-.image-container{
-/* display: flex; */
+.card-item {
+  text-decoration: none;
+  /* color: #333; */
+  width: 100px;
+  background-color: black;
+  height: 30vh;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 10px;
+  width: 250px;
+  transition: box-shadow 0.3s ease-in-out;
 }
 
-.img{
-  width: 750px;
+.card-item:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+
+.card-item img {
+    max-width: 100%; 
+    height: 25vh;    
+    display: block; 
+    margin: 0 auto; 
+}
+
+.card-icon {
+  font-size: 20px;
+}
+
+.arrow {
+  margin-top: 10px;
+}
+
+
