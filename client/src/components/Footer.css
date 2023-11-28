@@ -26,12 +26,12 @@ footer {
     line-height: 1.4;
   }
   
-  #links {
+  ul {
     list-style: none;
     padding: 0;
   }
   
-  #links li {
+  ul li {
     margin-bottom: 5px;
     cursor: pointer;
   }
