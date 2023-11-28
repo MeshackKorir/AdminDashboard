@@ -4,8 +4,10 @@ import './About.css';
 const About = () => {
   return (
     <div className='about-page'>
-      <h6>Who We Are</h6>
-      <h1 className='team-header'>Our Team</h1>
+      <div className='headers'>
+       <h6>Who We Are</h6>
+       <h1 className='team-header'>Our Team</h1>
+      </div>
       <p className='team-description'>
         Our long history of unparalleled commitment to partnering with the most extensive carriers and our ability to offer the most versatile services.
       </p>

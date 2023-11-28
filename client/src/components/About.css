@@ -5,6 +5,23 @@
   .team-header {
     color: #ccc;
   }
+
+  .headers {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .headers h6 {
+    font-size: 18px;
+    color: #522a2a; /* You can choose your desired color */
+  }
+  
+  .headers .team-header {
+    font-size: 36px;
+    color: #1a73e8; /* You can choose your desired color */
+    margin-top: 10px;
+  }
+  
   
   .team-description {
     color: #fff;
